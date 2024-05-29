@@ -1,0 +1,33 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 845 531" width="845" height="531">
+	<title>content-wrapper-svg</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m-1 0h1024v773h-1024z"/>
+		</clipPath>
+		<filter x="-50%" y="-50%" width="200%" height="200%" id="f1"> <feGaussianBlur stdDeviation="50"/> </filter>
+		<radialGradient id="g1" cx="184.3" cy="630" r="403.2" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#389d8c" stop-opacity="1"/>
+			<stop offset="1" stop-color="#389d8c" stop-opacity="0"/>
+		</radialGradient>
+		<radialGradient id="g2" cx="912.6" cy="622.4" r="413" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#389d8c" stop-opacity="1"/>
+			<stop offset="1" stop-color="#389d8c" stop-opacity="0"/>
+		</radialGradient>
+	</defs>
+	<style>
+		.s0 { fill: #f4f6fd } 
+		.s1 { filter: url(#f1);fill: url(#g1) } 
+		.s2 { filter: url(#f1);fill: url(#g2) } 
+	</style>
+	<path id="Layer" class="s0" d="m-1 0h848v531h-848z"/>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<g id="Layer">
+			<g id="Layer" style="opacity: .4">
+				<path id="Layer" class="s1" d="m-557.4 1057.6c-187.3-324.3-76.5-737.8 247.8-925 324.4-187.3 737.8-76.5 925.1 247.8 187.2 324.4 76.4 737.8-247.9 925.1-324.3 187.2-737.8 76.4-925-247.9z"/>
+			</g>
+		</g>
+	</g>
+	<g id="Layer" style="opacity: .4">
+		<path id="Layer" class="s2" d="m152.8 1060.4c-191.8-332.2-78.3-755.8 253.9-947.6 332.2-191.8 755.8-78.3 947.6 253.9 191.8 332.2 78.3 755.8-253.9 947.6-332.2 191.8-755.8 78.3-947.6-253.9z"/>
+	</g>
+</svg>
